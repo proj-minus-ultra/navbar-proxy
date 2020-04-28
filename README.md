@@ -1,1 +1,1 @@
-# main-product
+# main-product-proxy
