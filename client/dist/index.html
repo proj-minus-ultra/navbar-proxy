@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+  <link rel="stylesheet" type="text/css" href="http://localhost:3005/stylesheets/style.css">
   <link rel="stylesheet" type="text/css" href="http://localhost:3000/styles.css">
   <link
     rel="stylesheet"
@@ -11,14 +11,20 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous"
   />
+  <link rel='stylesheet' type='text/css' href='http://localhost:3010/fonts/font.js'>
+  <link rel='stylesheet' type='text/css' href='http://localhost:9000/styles'>
   <title>Lululemon Clone Proxy</title>
 </head>
 <body>
   <div id='root'></div>
+  <div id='header'></div>
   <div id='product'></div>
-  <div id='lulu-details'></div>
-  <div id='lulu-suggestions'></div>
+  <div id='details'></div>
+  <div id='similar'></div>
   <div id='reviews'></div>
+  <script src='http://localhost:3005/bundle.js'></script>
   <script src='http://localhost:3000/bundle.js'></script>
+  <script src='http://localhost:3010/bundle.js'></script>
+  <script src='http://localhost:9000/main.js'></script>
 </body>
 </html>
